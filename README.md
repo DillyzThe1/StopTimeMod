@@ -1,4 +1,4 @@
-# Dictator Role
+# Stopping Time
 This gamemode adds a new button to The Impostor's HUD that allows them to stop time for a certain amount of time.
 That's about it! So simple :)
 (I even programmed this in 2 hours lol)
