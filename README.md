@@ -20,7 +20,9 @@ Help from @Enzøツ#6163
  I was also told to credit this guy called "Commando"
 
 # Note
-You will need Reactor for this. Reactor is provided in the download.
+You will need Reactor & Essentials for this. Both of them are provided in the download.
+The original file of Reactor: https://github.com/NuclearPowered/Reactor/actions
+The original file of Essentials: https://github.com/DorCoMaNdO/Reactor-Essentials/releases
 If you have any problems with this mod or me as a creator, feel free to dm me on Discord.
 Discord: DillyzThe1#0621
 
