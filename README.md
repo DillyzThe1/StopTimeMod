@@ -2,6 +2,7 @@
 This gamemode adds a new button to The Impostor's HUD that allows them to stop time for a certain amount of time.
 That's about it! So simple :)
 (I even programmed this in 2 hours lol)
+WARNING: MAKE SURE YOU HAVE AMONG US 2020.12.9s
 
 # Discord
 https://discord.gg/Xfk4FUep - Get sneak peeks at new mods or updates and chat around!
