@@ -11,6 +11,7 @@ namespace StopTime
     public static class HudStartPatch
     {
         public static CooldownButton freezeButton;
+        public static CooldownButton sliceButton;
         public static void Postfix(HudManager __instance)
         {
             #region add the freeze button

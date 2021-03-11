@@ -20,11 +20,13 @@
 
     <ItemGroup>
       <None Remove="Assets\freeze.png" />
+      <None Remove="Assets\KatanaSmall.png" />
     </ItemGroup>
 
     <ItemGroup>
         <Deobfuscate Include="$(AmongUs)\BepInEx\plugins\Reactor-$(GameVersion).dll" />
         <EmbeddedResource Include="Assets\freeze.png" />
+        <EmbeddedResource Include="Assets\KatanaSmall.png" />
 
         <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="0.2.5" />
     </ItemGroup>

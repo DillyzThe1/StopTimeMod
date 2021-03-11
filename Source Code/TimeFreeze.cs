@@ -99,7 +99,7 @@ namespace StopTime
         public static KillButtonManager KillButton;
         public static int KBTarget;
         public static double DistLocalClosest;
-        public static string versionString = "0.1.0";
+        public static string versionString = "1.1.0";
         public class ModdedConfig
         {
             public float freezeTimer { get; set; }
@@ -115,9 +115,9 @@ namespace StopTime
         {
             static void Postfix(VersionShower __instance)
             {
-                CustomOption.ShamelessPlug = false; //a
-                __instance.text.Text += "\nStop Time mod [F6FF00FF]" + versionString + "  TESTING[] by [3AA3D9FF]DillyzThe1[].";
-                __instance.text.Text += "\n[b91313FF]Do not leak[]!";
+                var obj = UnityEngine.GameObject.Find("ReactorVersion");
+                if (obj != null) UnityEngine.GameObject.Destroy(obj);
+                __instance.text.Text += "\nStop Time mod [F6FF00FF]" + versionString + "[] by [3AA3D9FF]DillyzThe1[].";
             }
         }
         [HarmonyPatch(typeof(PingTracker), "Update")]

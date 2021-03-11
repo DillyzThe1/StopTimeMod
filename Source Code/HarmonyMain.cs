@@ -2,7 +2,8 @@
 using BepInEx.IL2CPP;
 using HarmonyLib;
 using Reactor;
-using Essentials.CustomOptions;
+using Essentials.Options;
+using System;
 
 namespace StopTime
 {
@@ -17,7 +18,6 @@ namespace StopTime
         public static CustomNumberOption freezeTimer = CustomOption.AddNumber("Freeze Time Active", 20f, 15f, 45f, 2.5f);
         public override void Load()
         {
-            CustomOption.ShamelessPlug = false;
             Harmony.PatchAll();
         }
     }

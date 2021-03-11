@@ -55,15 +55,7 @@ namespace StopTime
             switch (packetId)
             {
                 case (byte)CustomRPC.TimeEdit:
-                    bool timeFreeze = ALMCIJKELCP.ReadBoolean();
-                    if (timeFreeze && !PlayerControl.LocalPlayer.Data.IsImpostor)
-                    {
-                        PlayerControl.LocalPlayer.MyPhysics.Speed = PlayerControl.LocalPlayer.MyPhysics.Speed / 10000;
-                    }
-                    else if (!PlayerControl.LocalPlayer.Data.IsImpostor)
-                    {
-                        PlayerControl.LocalPlayer.MyPhysics.Speed = PlayerControl.LocalPlayer.MyPhysics.Speed * 10000;
-                    }
+                    PlayerControl.LocalPlayer.moveable = !ALMCIJKELCP.ReadBoolean() && !PlayerControl.LocalPlayer.Data.IsImpostor;
                     break;
             }
         }
