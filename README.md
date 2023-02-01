@@ -1,7 +1,9 @@
 # IMPORTANT NOTICE
-THIS MOD IS SUPER OLD AND IS BEING REMADE FROM THE GROUND UP AS AN ENTIRE ROLE IN LATEST BUILDS OF THE GAME.<br>
-PLEASE CHECK OUT MY DRAPI-MOD-MANAGER PROGRAM WHEN IT RELEASES TO EASILY INSTALL!!<br>
-THIS SECTION WILL BE UPDATED SHORTLY BEFORE ARCHIVAL WITH A LINK TO THE MOD MANAGER'S INSTALLER.
+THIS VERSION OF THE MOD IS SUPER OUT OF DATE AND HAS BEEN REMADE FROM THE GROUND UP!<br>
+YOU SHOULD USE THE BRAND NEW MOD MANAGER!<br>
+(The remake is inside of DillyzLegacyPack)<br>
+https://github.com/DillyzThe1/DRAPI-Mod-Manager#installation
+
 # Stopping Time
 This gamemode adds a new button to The Impostor's HUD that allows them to stop time for a certain amount of time.
 That's about it! So simple :)
